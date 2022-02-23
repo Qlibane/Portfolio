@@ -1,0 +1,33 @@
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid gold;
+    
+}
+
+.photo {
+    background-image: url("/images/me.jpg");
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50%;
+    border: 5px solid gold;
+}
+
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    
+}
+.bio-name {
+    color: gold;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin: 0px;
+
+}
