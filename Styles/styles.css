@@ -1,3 +1,6 @@
+html {
+    margin: 0px;
+}
 body {
     margin: 0px;
     padding: 0px;
@@ -193,4 +196,45 @@ i {
     text-align: center;
     margin-top: 10px;
     
+}
+.contact-link {
+    color: black;
+    font-size: 18px;
+
+}
+.contacts-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 100px 20px;
+    border: 5px solid gold;
+}
+.contacts-link-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin-top: 30px;
+    text-align: center;
+
+}
+.contact-intro {
+    font-size: 50px;
+    margin: 5px;
+}
+.contact-synopsis {
+    font-style: italic;
+    font-size: 20px;
+}
+.contacts-information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.contacts {
+    text-align: center;
 }
