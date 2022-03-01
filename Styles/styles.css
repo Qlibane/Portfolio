@@ -71,6 +71,8 @@ nav {
 a {
     text-decoration: none;
     color: white;
+    display: flex;
+    align-items: center;
 }
 
 a:hover {
@@ -112,7 +114,6 @@ a:hover {
 
 i {
     color: gold;
-
 }
 
 .projects-section {
@@ -200,7 +201,7 @@ i {
 .contact-link {
     color: black;
     font-size: 18px;
-
+    padding: 10px;
 }
 .contacts-section {
     display: flex;
@@ -208,8 +209,8 @@ i {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    padding: 100px 20px;
-    border: 5px solid gold;
+    padding: 100px 0px;
+   
 }
 .contacts-link-container {
     display: flex;
@@ -235,6 +236,8 @@ i {
     flex-direction: column;
     width: 100%;
 }
-.contacts {
-    text-align: center;
+
+.contact {
+    display: flex;
+    align-items: center;
 }
