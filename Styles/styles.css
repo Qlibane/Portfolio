@@ -181,7 +181,7 @@ i {
     border-top-left-radius: 5px;
 }
 .survey-project {
-    background-image: url("/images/survey-ss.png");
+    background-image: url("../images/survey-ss.png");
     width: 400px;
     height: 400px;
     background-size: cover;
@@ -191,7 +191,7 @@ i {
 
 }
 .product-landing-page {
-    background-image: url("/images/product-landing page.png");
+    background-image: url("../images/product-landing page.png");
     width: 400px;
     height: 400px;
     background-size: cover;
@@ -201,7 +201,7 @@ i {
 
 }
 .technical-documentation-page {
-    background-image: url("/images/technical-documentation-page.png");
+    background-image: url("../images/technical-documentation-page.png");
     width: 400px;
     height: 400px;
     background-size: cover;
