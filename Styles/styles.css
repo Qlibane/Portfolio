@@ -1,294 +1,307 @@
 html {
-    margin: 0px;
+  margin: 0px;
 }
 body {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Lora', serif;
-    font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lora", serif;
+  font-weight: 500;
 }
 
 img {
-    width: 400px;
-    height: 400px;
-    border-radius: 10px;
-    border: 5px solid rebeccapurple; 
-    
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  border: 5px solid rebeccapurple;
 }
 
 .photo {
-    background-image: url("../images/me.jpg");
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-    background-position: center center;
-    border-radius: 50%;
-    margin-top: 80px;
-    border: 5px solid rebeccapurple;
+  background-image: url("../images/me.jpg");
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  margin-top: 80px;
+  border: 5px solid rebeccapurple;
 }
 
 .landing-page {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    background-color: rgba(86, 86, 122, 0.7)
-    
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  background-color: rgba(86, 86, 122, 0.7);
 }
 .bio-name {
-    color: rebeccapurple;
-    border-bottom: 2px solid rebeccapurple;
-    padding-bottom: 10px;
-    margin: 0px;
-    font-size: 20px;
-    font-weight: 700;
-    /* background-color: rgba(86, 86, 122, 0.6) */
-
+  color: rebeccapurple;
+  border-bottom: 2px solid rebeccapurple;
+  padding-bottom: 10px;
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 700;
+  /* background-color: rgba(86, 86, 122, 0.6) */
 }
 button {
-    background-color: rgba(102, 51, 153, 0.3);
-    height: 40px;
-    width: 200px;
-    border-radius: 3px;
-    border: none;
-    margin-bottom: 20px;
-    font-family: 'Lora', serif;
-    font-weight: 600;
-    font-size: 16px;
+  background-color: rgba(102, 51, 153, 0.3);
+  height: 40px;
+  width: 200px;
+  border-radius: 3px;
+  border: none;
+  margin-bottom: 20px;
+  font-family: "Lora", serif;
+  font-weight: 600;
+  font-size: 16px;
 }
 
-
 nav {
-    background-color: rgba(86, 86, 122);
-    width: 100%;
-    height: 50px;
-    margin-top: 0px;
-    margin-bottom: 40px;
-    padding-right: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    z-index: 100;
-   
+  background-color: rgba(86, 86, 122);
+  width: 100%;
+  height: 50px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 100;
 }
 
 .links-container {
-   width: 30%;
-   display: flex;
-   justify-content: space-between;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
 }
 
 a {
-    text-decoration: none;
-    color: white;
-    display: flex;
-    align-items: center;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
 }
 
 a:hover {
-    /* text-decoration: gold underline; */
-    color: rgb(85, 5, 165);
-    font-weight: 700;
+  /* text-decoration: gold underline; */
+  color: rgb(85, 5, 165);
+  font-weight: 700;
 }
 
 .about-section {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgba(86, 86, 122, 0.6)
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(86, 86, 122, 0.6);
 }
 .info {
-    width: 80%;
-    text-align: justify;
+  width: 80%;
+  text-align: justify;
 }
 
 .stacks {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgba(86, 86, 122, 0.5);
-    margin: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(86, 86, 122, 0.5);
+  margin: 0px;
 }
 
 .stacks-info {
-    /* border: 5px solid white; */
-    width: 200px;
-    text-align: center;
-    padding: 10px;
-    background-color: rgb(86, 86, 122,);
-    margin-bottom: 20px;
-    border-radius: 3px;
+  /* border: 5px solid white; */
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(86, 86, 122);
+  margin-bottom: 20px;
+  border-radius: 3px;
 }
 
 .stack-major {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 i {
-    color: rebeccapurple;
+  color: rebeccapurple;
 }
 
 .projects-section {
-    padding: 20px;
-    background-color: rgba(86, 86, 122, 0.4);
-
+  padding: 20px;
+  background-color: rgba(86, 86, 122, 0.4);
 }
 
 .projects {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap; 
-     
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .project-title {
-    width: 390px;
-    background-color: grey;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 5px solid grey;
-    height: 50px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    font-size: 20px; 
-  
+  width: 390px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid grey;
+  height: 50px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 20px;
 }
 
-.project-title:hover{
-    color: rebeccapurple;
-    font-weight: 700;
+.project-title:hover {
+  color: rebeccapurple;
+  font-weight: 700;
 }
 
 .tribute-project {
-    background-image: url("../images/Tribute.png");
-    width: 400px;
-    height: 400px;
-    background-size: cover;
-    background-position: center center;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
+  background-image: url("../images/Tribute.png");
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  background-position: center center;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 .survey-project {
-    background-image: url("../images/survey-ss.png");
-    width: 400px;
-    height: 400px;
-    background-size: cover;
-    background-position: center center;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-
+  background-image: url("../images/survey-ss.png");
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  background-position: center center;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 .product-landing-page {
-    background-image: url("../images/product-landing page.png");
-    width: 400px;
-    height: 400px;
-    background-size: cover;
-    background-position: center center;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-
+  background-image: url("../images/product-landing page.png");
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  background-position: center center;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 .technical-documentation-page {
-    background-image: url("../images/technical-documentation-page.png");
-    width: 400px;
-    height: 400px;
-    background-size: cover;
-    background-position: center center;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-
+  background-image: url("../images/technical-documentation-page.png");
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  background-position: center center;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 .project-container {
-    /* border: 5px solid gold; */
-    border-radius: 10px;
-    margin: 20px;
-    
+  /* border: 5px solid gold; */
+  border-radius: 10px;
+  margin: 20px;
 }
 
 .project-header {
-    text-align: center;
-    margin-top: 10px;
-    
+  text-align: center;
+  margin-top: 10px;
 }
 .contact-link {
-    color: black;
-    font-size: 18px;
-    padding: 10px;
+  color: black;
+  font-size: 18px;
+  padding: 10px;
 }
 .contacts-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    padding: 100px 0px;
-    background-color: rgba(86, 86, 122, 0.3)
-   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 100px 0px;
+  background-color: rgba(86, 86, 122, 0.3);
 }
 .contacts-link-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 60%;
-    margin-top: 30px;
-    text-align: center;
-
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  margin-top: 30px;
+  text-align: center;
 }
 .contact-intro {
-    font-size: 50px;
-    margin: 5px;
+  font-size: 50px;
+  margin: 5px;
 }
 .contact-synopsis {
-    font-style: italic;
-    font-size: 20px;
+  font-style: italic;
+  font-size: 20px;
 }
 .contacts-information {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
 }
 
 .contact {
-    display: flex;
-    align-items: center;
-    padding: 5px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
 }
 
- span:hover {
-     color: rebeccapurple;
-     font-weight: 700;
- }  
+span:hover {
+  color: rebeccapurple;
+  font-weight: 700;
+}
 
-   
 #fb {
-    color: rgb(66, 103, 178);    
+  color: rgb(66, 103, 178);
 }
 
 #gh {
-    color: black;
+  color: black;
 }
 
 #twt {
-    color: skyblue;
+  color: skyblue;
 }
 #pno {
-    color: grey
+  color: grey;
 }
 #mail {
-    color: black;
+  color: black;
 }
+
+#embed {
+  display: flex;
+  width: 100%;
+  padding: 20px 20px;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+#alx {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: rgb(10, 10, 10); 
+}
+
+#alx a {
+    padding-left: 8px;
+    color: blue;
+
+}
+
+#alx a:hover {
+    text-decoration: underline;
+ 
+}
+
+
+    
